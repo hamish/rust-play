@@ -9,4 +9,9 @@ mod tests {
     fn it_works() {
         assert_eq!(2 + 2, 4);
     }
+    #[test]
+    fn another_test() {
+        panic!("Fail test - FAIL");
+    }
+}    
 }
