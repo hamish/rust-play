@@ -11,7 +11,7 @@ mod tests {
     }
     #[test]
     fn another_test() {
-        panic!("Fail test - FAIL");
+        assert_eq!(1+1, 2);
     }
 }    
 }
